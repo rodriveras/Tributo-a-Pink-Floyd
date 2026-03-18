@@ -22,35 +22,35 @@ const MUSIC_DATA = [
         id: "cd1",
         title: "A Saucerful of Pink - CD 1",
         description: "A Tribute to Pink Floyd (1995)",
-        coverArt: "./a saucerful of pink - 1995 a tribute to pink floyd cd1 (128 kbps/folder.jpg",
+        coverArt: "./folder.jpg",
         tracks: [
-            { title: "Set Controls For The Heart Of The Sun", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd1 (128 kbps/01 - Set Controls For The Heart Of The Sun (Psychic Tv).mp3" },
-            { title: "Another Brick In The Wall", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd1 (128 kbps/02 - Another Brick In The Wall, Parts 1 & 2 (Controlled Blee.mp3" },
-            { title: "One Of These Days", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd1 (128 kbps/03 - One Of These Days (Spahn Ranch).mp3" },
-            { title: "Wots...uh The Deal", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd1 (128 kbps/04 - Wots...uh The Deal (Sky Cries Mary).mp3" },
-            { title: "Interstellar Overdrive", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd1 (128 kbps/05 - Interstellar Overdrive (Spiral Realms).mp3" },
-            { title: "Learning To Fly", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd1 (128 kbps/06 - Learning To Fly (Leaether Strip).mp3" },
-            { title: "To Roger Waters, Wherever You Are", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd1 (128 kbps/07 - To Roger Waters, Wherever You Are (Ron Geesin).mp3" },
-            { title: "Jugband Blues", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd1 (128 kbps/08 - Jugband Blues (Eden).mp3" },
-            { title: "On The Run", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd1 (128 kbps/09 - On The Run (Din).mp3" }
+            { title: "Set Controls For The Heart Of The Sun", url: "./01 - Set Controls For The Heart Of The Sun (Psychic Tv).mp3" },
+            { title: "Another Brick In The Wall", url: "./02 - Another Brick In The Wall, Parts 1 & 2 (Controlled Blee.mp3" },
+            { title: "One Of These Days", url: "./03 - One Of These Days (Spahn Ranch).mp3" },
+            { title: "Wots...uh The Deal", url: "./04 - Wots...uh The Deal (Sky Cries Mary).mp3" },
+            { title: "Interstellar Overdrive", url: "./05 - Interstellar Overdrive (Spiral Realms).mp3" },
+            { title: "Learning To Fly", url: "./06 - Learning To Fly (Leaether Strip).mp3" },
+            { title: "To Roger Waters, Wherever You Are", url: "./07 - To Roger Waters, Wherever You Are (Ron Geesin).mp3" },
+            { title: "Jugband Blues", url: "./08 - Jugband Blues (Eden).mp3" },
+            { title: "On The Run", url: "./09 - On The Run (Din).mp3" }
         ]
     },
     {
         id: "cd2",
         title: "A Saucerful of Pink - CD 2",
         description: "A Tribute to Pink Floyd (1995)",
-        coverArt: "./a saucerful of pink - 1995 a tribute to pink floyd cd2 (128 kbps/folder.jpg",
+        coverArt: "./folder.jpg",
         tracks: [
-            { title: "Echoes", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd2 (128 kbps/01 - Echoes (Alien Sex Fiend).mp3" },
-            { title: "Hey You", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd2 (128 kbps/02 - Hey You (Furnace).mp3" },
-            { title: "Careful With That Axe, Eugene", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd2 (128 kbps/03 - Careful With That Axe, Eugene (Nik Turner).mp3" },
-            { title: "Lucifer Sam", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd2 (128 kbps/04 - Lucifer Sam (The Electric Hellfire Club).mp3" },
-            { title: "Pigs On The Wing", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd2 (128 kbps/05 - Pigs On The Wing (Helios Creed).mp3" },
-            { title: "Let There Be More Light", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd2 (128 kbps/06 - Let There Be More Light (Pressurehed).mp3" },
-            { title: "Young Lust", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd2 (128 kbps/07 - Young Lust (Penal Colony).mp3" },
-            { title: "A Saucerful Of Secrets", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd2 (128 kbps/08 - A Saucerful Of Secrets (Exp).mp3" },
-            { title: "Point Me At The Sky", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd2 (128 kbps/09 - Point Me At The Sky (Melting Euphoria).mp3" },
-            { title: "The Nile Song", url: "./a saucerful of pink - 1995 a tribute to pink floyd cd2 (128 kbps/10 - The Nile Song (Farflung).mp3" }
+            { title: "Echoes", url: "./01 - Echoes (Alien Sex Fiend).mp3" },
+            { title: "Hey You", url: "./02 - Hey You (Furnace).mp3" },
+            { title: "Careful With That Axe, Eugene", url: "./03 - Careful With That Axe, Eugene (Nik Turner).mp3" },
+            { title: "Lucifer Sam", url: "./04 - Lucifer Sam (The Electric Hellfire Club).mp3" },
+            { title: "Pigs On The Wing", url: "./05 - Pigs On The Wing (Helios Creed).mp3" },
+            { title: "Let There Be More Light", url: "./06 - Let There Be More Light (Pressurehed).mp3" },
+            { title: "Young Lust", url: "./07 - Young Lust (Penal Colony).mp3" },
+            { title: "A Saucerful Of Secrets", url: "./08 - A Saucerful Of Secrets (Exp).mp3" },
+            { title: "Point Me At The Sky", url: "./09 - Point Me At The Sky (Melting Euphoria).mp3" },
+            { title: "The Nile Song", url: "./10 - The Nile Song (Farflung).mp3" }
         ]
     }
 ];
