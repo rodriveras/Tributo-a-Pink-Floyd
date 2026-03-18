@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Floyd Tribute Web Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="player-container">
+        
+        <!-- Header -->
+        <header class="app-header">
+            <h1>Tribute Music Player</h1>
+            <p>Selecciona un álbum para comenzar</p>
+        </header>
+
+        <!-- Album Selection Section -->
+        <section class="album-selection" id="album-selection">
+            <!-- Albums will be injected here via JS -->
+        </section>
+
+        <!-- Playlist Section (Hidden by default) -->
+        <section class="playlist-section hidden" id="playlist-section">
+            <button class="back-btn" id="back-btn">
+                <i class="fa-solid fa-arrow-left"></i> Volver a Álbumes
+            </button>
+            <h2 id="playlist-title">Álbum</h2>
+            <div class="track-list" id="track-list">
+                <!-- Tracks will be injected here via JS -->
+            </div>
+        </section>
+
+        <!-- Fixed Player Controls (Always at bottom) -->
+        <footer class="player-controls">
+            <div class="now-playing">
+                <img id="now-playing-cover" src="https://via.placeholder.com/60" alt="Cover">
+                <div class="track-info">
+                    <h3 id="now-playing-title">Ninguna canción</h3>
+                    <p id="now-playing-album">-</p>
+                </div>
+            </div>
+
+            <div class="main-controls">
+                <div class="buttons">
+                    <button id="prev-btn" title="Anterior"><i class="fa-solid fa-backward-step"></i></button>
+                    <button id="play-pause-btn" class="play-btn" title="Reproducir/Pausar"><i class="fa-solid fa-play"></i></button>
+                    <button id="next-btn" title="Siguiente"><i class="fa-solid fa-forward-step"></i></button>
+                </div>
+                
+                <div class="progress-container">
+                    <span id="current-time">0:00</span>
+                    <div class="progress-bar-bg" id="progress-bar-bg">
+                        <div class="progress-bar-fill" id="progress-bar-fill"></div>
+                    </div>
+                    <span id="total-time">0:00</span>
+                </div>
+            </div>
+
+            <div class="volume-container">
+                <i class="fa-solid fa-volume-high" id="volume-icon"></i>
+                <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1">
+            </div>
+        </footer>
+
+        <!-- Hidden Audio Element -->
+        <audio id="audio-player"></audio>
+    </div>
+
+    <!-- Error Toast Notification -->
+    <div id="error-toast" class="toast hidden">
+        <p>Error reproduciendo la canción. Revisa la consola o asegúrate de que el enlace sea un archivo válido publicamente accesible.</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
